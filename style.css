@@ -3,14 +3,16 @@
 }
 
 div {
-  height: 1000px;
+  height: 800px;
   /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(image/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg);
-  background-size: cover;
+  background-image: url(image/wallpaperflare-com_wall-per-8.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
+  /* padding: 100px; */
 }
 
 h1 {
@@ -21,5 +23,5 @@ h1 {
   text-decoration: underline;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
-  color: rgb(250, 162, 0);
+  color: rgba(0, 255, 238, 0.626);
 }
