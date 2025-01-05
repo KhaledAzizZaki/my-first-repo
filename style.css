@@ -2,7 +2,26 @@
   margin: 0;
 }
 
-div {
+.head {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+}
+
+.home {
+  padding: 35px;
+  padding-left: 65px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.first {
   height: 800px;
   /* width: 100%; */
   display: flex;
